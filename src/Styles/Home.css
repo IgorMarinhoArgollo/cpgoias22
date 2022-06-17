@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  margin-top: 25px;
+}

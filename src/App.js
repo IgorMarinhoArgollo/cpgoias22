@@ -7,6 +7,7 @@ import NotFound from './Pages/NotFound';
 import Ajuste from './Pages/Ajuste';
 import Teclado from './Pages/Teclado';
 import Daltonico from './Pages/Daltonico';
+import DarkMode from './Pages/DarkMode';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path='/video' component={Video} />
       <Route exact path='/ajuste' component={Ajuste} />
+      <Route exact path='/darkmode' component={DarkMode} />
       <Route exact path='/teclado' component={Teclado} />
       <Route exact path='/daltonico' component={Daltonico} />
       <Route path="*" component={NotFound} />
