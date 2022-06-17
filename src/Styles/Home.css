@@ -3,5 +3,7 @@
   flex-direction: column;
 }
 .item {
+  margin-left: 25px;
   margin-top: 25px;
+  color: #333333;
 }

@@ -1,0 +1,53 @@
+* {
+  margin    : 0px;
+  padding   : 0px;
+  box-sizing: border-box;
+}
+
+.filtersDiv {
+  display: block;
+}
+
+.btns {
+  display        : flex;
+  flex-wrap      : wrap;
+  justify-content: center;
+  margin-top     : 25px;
+}
+
+.mainVideos {
+  width          : 100%;
+  min-height     : 100vh;
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  justify-content: center;
+}
+
+.videoThumbnail {
+  position: relative;
+  width   : 221px;
+  height  : 175px;
+  margin  : 25px;
+}
+
+.filter {
+  position        : absolute;
+  width           : 100%;
+  height          : 100%;
+}
+
+.protanopia {
+  opacity         : 0.3;
+  background-color: #f3fb04;
+}
+
+.deuteranopia {
+  opacity         : 0.3;
+  background-color: #e3dbfb;
+}
+
+.tritanopia {
+  opacity: 0.3;
+  background-color: #fbd3fb;
+}
