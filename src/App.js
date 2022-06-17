@@ -16,7 +16,7 @@ function App() {
       <Route exact path='/ajuste' component={Ajuste} />
       <Route exact path='/darkmode' component={DarkMode} />
       <Route exact path='/teclado' component={Teclado} />
-      <Route exact path='/daltonico' component={Daltonico} />
+      <Route exact path='/filtrocolorblind' component={Daltonico} />
       <Route path="*" component={NotFound} />
     </Switch>
   );
