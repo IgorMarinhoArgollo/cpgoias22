@@ -10,6 +10,7 @@ export default class Home extends Component {
         <Link to='/darkmode' className='item'> DarkMode</Link>
         <Link to='/teclado' className='item'>Navegação por teclado e Alt</Link>
         <Link to='/filtrocolorblind' className='item'>Aplicação de filtro nativo para portadores de daltonismo</Link>
+        <Link to='/pesquisa-por-fala' className='item'>Uso de fala para a pesquisa</Link>
       </div>
     )
   }

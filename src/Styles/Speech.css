@@ -1,0 +1,83 @@
+* {
+  margin    : 0px;
+  padding   : 0px;
+  box-sizing: border-box;
+}
+
+.speechHeader {
+  display         : flex;
+  width           : 100%;
+  height          : 70px;
+  background-color: rgba(0, 157, 217, 1);
+  justify-content : center;
+  align-items     : center;
+}
+
+#speechInput {
+  height: 40px;
+  width : 250px;
+}
+
+.iconBtn {
+  border-radius   : 50%;
+  background-color: #d3d3d3;
+}
+
+#icone {
+  width : 35px;
+  height: 35px;
+}
+
+.iconBtn:hover::after {
+  position    : absolute;
+  content     : 'aperte para falar ou segure espaço';
+  color       : #fafafa;
+  font-size   : 18px;
+  padding-left: 40px;
+  width: 150px;
+}
+
+.iconBtn {
+  position: relative;
+  height  : 40px;
+  width   : 40px;
+  display : flex;
+}
+
+.iconeDiv {
+  width          : 150px;
+  justify-content: start;
+}
+
+@media screen and (max-width: 425px) {
+  .iconBtn:hover::after {
+  content     : 'aperte para falar ou segure espaço';
+  color       : #fafafa;
+  font-size   : 18px;
+  width       : 150px;
+  top: 35px;
+  right: -55px;
+}
+
+
+
+.speechHeader {
+  height          : 120px;
+  padding-left: 5px;
+}
+
+.iconeDiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+}
+
+.listeningPageDiv {
+  display: block;
+  text-align: center;
+}
+
+#listening {
+  font-size: 30px;
+}
