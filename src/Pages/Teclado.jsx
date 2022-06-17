@@ -27,7 +27,7 @@ export default class Teclado extends Component {
             </Link></li>
           </ul>
         </header>
-        <section className='master'>
+        <section className='masterTeclado'>
           <div className="video">
             <div className="thumb">
               <img src={Imagem} alt="Alt's servem para aparecer caso a imagem não seja carregada e para serem lidas por leitores de tela." />
