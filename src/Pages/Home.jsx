@@ -8,6 +8,7 @@ export default class Home extends Component {
       <div className='home'>
         <Link to='/ajuste' className='item'> Ajuste de tamanho de fonte</Link>
         <Link to='/darkmode' className='item'> DarkMode</Link>
+        <Link to='/teclado' className='item'>Navegação por teclado e Alt</Link>
       </div>
     )
   }
