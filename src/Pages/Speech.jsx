@@ -58,7 +58,7 @@ spacePress = (e) => {
         <header className='speechHeader'>
           <input type="text" placeholder='pesquisar' id='speechInput' />
           <div className="iconeDiv">
-            <button type='button' className='iconBtn' onClick={this.buttonFunction}>
+            <button type='button' className='iconBtn' onClick={this.buttonFunction} autoFocus>
               <img src={Mic} alt="Ícone de Microfone" id='icone' />
             </button>
           </div>
