@@ -40,17 +40,17 @@
 .protanopia {
   opacity         : 0.3;
   background-color: #eaeda2;
-  filter          : brightness(90%) saturate(120%);
+  filter          : brightness(100%) saturate(120%);
 }
 
 .deuteranopia {
   opacity         : 0.3;
   background-color: #c0aff3;
-  filter          : brightness(90%) saturate(120%);
+  filter          : brightness(100%) saturate(120%);
 }
 
 .tritanopia {
   opacity         : 0.3;
   background-color: #f7b8f7;
-  filter          : brightness(90%) saturate(120%);
+  filter          : brightness(100%) saturate(120%);
 }
