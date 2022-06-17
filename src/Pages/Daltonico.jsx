@@ -44,12 +44,13 @@ export default class Daltonico extends Component {
   render() {
     return (
       <section className='filtersDiv'>
-          <div className="btns">
-            <button type='button' onClick={this.protanopia}> Protanopia</button>
-            <button type='button' onClick={this.deuteranopia}> Deuteranopia</button>
-            <button type='button' onClick={this.tritanopia}> Tritanopia</button>
-            <button type='button' onClick={this.semFiltro}> Sem filtro</button>
-          </div>
+        <p className='pDescription'>O filtro para pessoas portadoras de daltonismo é uma função que aplica filtros às mídias para melhorar a visualização das mesmas. Foram implementados 3 filtros diferentes.</p>
+        <div className="btns">
+          <button type='button' onClick={this.protanopia}> Protanopia</button>
+          <button type='button' onClick={this.deuteranopia}> Deuteranopia</button>
+          <button type='button' onClick={this.tritanopia}> Tritanopia</button>
+          <button type='button' onClick={this.semFiltro}> Sem filtro</button>
+        </div>
         <div className='mainVideos'>
           <div className='videoThumbnail'>
             <div className='filter'></div>

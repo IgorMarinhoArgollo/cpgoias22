@@ -64,6 +64,12 @@ spacePress = (e) => {
           </div>
         </header>
         <p id='listening'></p>
+        <p className="pDescription">
+          A navegação permite ao usuário ditar os dados e a funcionalidade preenche os campos. 
+        </p>
+        <p className="pDescription">
+          A captura de audio ocorre ao se manter a tecla de espaço pressionada ou clicando sobre o botão para iniciar e clicando novamente para se pausar.
+        </p>
       </div>
     )
   }

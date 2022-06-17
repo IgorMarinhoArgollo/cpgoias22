@@ -25,12 +25,12 @@ export default class DarkMode extends Component {
 
   render() {
     return (
-      <div className='master'>
+      <div className='masterDark'>
         <button type='button' onClick={this.toggle}> Claro/Escuro</button>
         <h1>Título Grande</h1>
         <h2>Título Médio</h2>
         <h3>Título Pequeno</h3>
-        <p> Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,  </p>
+        <p id='darkP'> O Modo Noturno facilita a leitura à noite, e melhora a experiência de pessoas que sofrem com questões relacionadas ao brilho.A funcionalidade pode ser ativada manualmente ou de maneira automática,baseado em horário (das 18h até as 06h)  </p>
       </div>)
   }
 }

@@ -6,19 +6,19 @@
 
 .master{
   font-size: 16px;
-  margin: 25px;
+  padding: 25px 10px auto 10px;
 }
 
 h1 {
-  margin: 25px 0;
+  margin: 25px 10px;
 }
 
 h2 {
-  margin: 25px 0;
+  margin: 25px 10px;
 }
 
 h3 {
-  margin: 25px 0;
+  margin: 25px 10px;
 }
 
 p {
@@ -27,4 +27,14 @@ p {
 
 button {
   margin-left: 25px;
+}
+
+.pDescription {
+background-color: #d3d3d3;
+padding-left: 10px;
+font-size: 19px;
+}
+
+.masterAjuste {
+  padding-top: 25px;
 }

@@ -27,6 +27,12 @@ export default class Teclado extends Component {
             </Link></li>
           </ul>
         </header>
+        <p className="pDescription">
+          A navegação por teclado permite que o usuário acesse o site sem precisar utilizar o mouse
+        </p>
+        <p className="pDescription">
+          O Alt tem duas funções: mostrar uma alternativa em text, caso a imagem não consiga ser carregada e <b>servir como descrição para leitores de tela</b>.
+        </p>
         <section className='masterTeclado'>
           <div className="video">
             <div className="thumb">

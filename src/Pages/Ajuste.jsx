@@ -35,12 +35,14 @@ componentDidMount() {
 render() {
   return (
     <div className='master'>
+      <div className='masterAjuste'>
       <button type='button' onClick={this.aumentarFonte}> aumentar fonte</button>
       <button type='button' onClick={this.diminuirFonte}> diminuir fonte</button>
       <h1>Título Grande</h1>
       <h2>Título Médio</h2>
       <h3>Título Pequeno</h3>
-      <p> Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,Texto texto,  </p>
+      <p className='pDescription'> Função que permite ajustar o tamanho da fonte de acordo com a necessidade, oferecendo autonomia para o usuário.  </p>
+      </div>
     </div>
   )
 }
