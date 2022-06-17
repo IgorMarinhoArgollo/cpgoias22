@@ -22,7 +22,6 @@ export default class Ajuste extends Component {
 aumentarFonte = () => {
   let { TAMANHO_DA_FONTE } = this.state;
   this.setState({ TAMANHO_DA_FONTE: TAMANHO_DA_FONTE + 1 })
-  this.update();
 }
 
 update = () => {
