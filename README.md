@@ -6,6 +6,9 @@ Live: https://eduplay-cpgoias22.netlify.app/
 
 Apresentar funcionalidades para melhorar questões associadas a acessibilidade para a plataforma Eduplay (https://eduplay.rnp.br/portal/home)
 
+
+
+
 ## Features Implementadas
 
 ### Ajuste de tamanho de fonte personalizada baseada na demanda pessoal
