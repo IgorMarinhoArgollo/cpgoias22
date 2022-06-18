@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# HACKATON CAMPUS PARTY GOIÁS 2022 - Desafio RNP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live: https://eduplay-cpgoias22.netlify.app/
 
-## Available Scripts
+### Objetivos
 
-In the project directory, you can run:
+Apresentar funcionalidades para melhorar questões associadas a acessibilidade para a plataforma Eduplay (https://eduplay.rnp.br/portal/home)
 
-### `npm start`
+## Features Implementadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Ajuste de tamanho de fonte personalizada baseada na demanda pessoal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Diferentemente da maioria dos ajustes de tamanho de fonte que apresentam apenas 2 opções (fonte larga e fonte normal), nessa feature o usuário aumenta o tamanho da fonte ao seu gosto, obtendo o tamanho ideal para a sua necessidade.
 
-### `npm test`
+### Modo Noturno/ Dark Mode
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Opção de estilização alternável em modo noturno para reduzir o brilho em excesso que dificulta a leitura por parte do usuário.
 
-### `npm run build`
+Ao acessar o site pela primeira vez o modo apresentado é baseado no horário da Time Zone GMT-3. Caso no horário do acesso o horário seja entre as 06:00 e as 18:00, por padrão o modo apresentado é o modo claro, enquanto, caso o horário de acesso seja entre as 18:01 e as 05:59 o modo padrão é o modo escuro.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Navegação por Teclado
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Funcionalidade para facilitar a navegação. Ao ser implementada a funcionalidade permite ao usuário navegar apertando a tecla TAB do teclado.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Alt nas imagens
 
-### `npm run eject`
+Alt's são atributos das imagens em uma aplicação web responsiva que melhoram a acessibilidade do site. Os Alt's aparecem em dois momentos:
+  - Quando uma imagem não pode ser carregada, o texto do atributo Alt aparece como alternativa para que o usuário saiba do que se trata a imagem que não pode ser carregada;
+  - Ao se utilizar leitores de tela os Alt's são lidos para informar o usuário o conteúdo da imagem (implementação não utilizada na plataforma atual do Eduplay).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Aplicação de filtros Nativos para melhorar a visibilidade de portadores de daltonismo/color blind
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Implementação de três filtros para melhorar a visualização de portadores de daltonismo, que funciona alterando um pouco a cor original para a tornar mais diferenciável.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Navegação por Voz
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Implementação de navegação por voz que pode ser acionada clicando para iniciar e clicando novamente para parar a captura de voz ou simplesmente mantendo pressionado a tecla de espaço enquanto se fala o que se deseja buscar.
 
-## Learn More
+Nesse caso o foco automático no carregamento da página se inicia no botão para falar, não necessitando de navegação por teclado para se chegar ao botão de captura de voz
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
