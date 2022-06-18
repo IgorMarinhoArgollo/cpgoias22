@@ -11,6 +11,16 @@ Apresentar funcionalidades para melhorar questões associadas a acessibilidade p
 
 ## Features Implementadas
 
+### :star: Aplicação de filtros Nativos para melhorar a visibilidade de portadores de daltonismo/color blind
+
+Implementação de três filtros para melhorar a visualização de portadores de daltonismo, que funciona alterando um pouco a cor original para a tornar mais diferenciável.
+
+### :star: Navegação por Voz
+
+Implementação de navegação por voz que pode ser acionada clicando para iniciar e clicando novamente para parar a captura de voz ou simplesmente mantendo pressionado a tecla de espaço enquanto se fala o que se deseja buscar.
+
+Nesse caso o foco automático no carregamento da página se inicia no botão para falar, não necessitando de navegação por teclado para se chegar ao botão de captura de voz
+
 ### Ajuste de tamanho de fonte personalizada baseada na demanda pessoal
 
 Diferentemente da maioria dos ajustes de tamanho de fonte que apresentam apenas 2 opções (fonte larga e fonte normal), nessa feature o usuário aumenta o tamanho da fonte ao seu gosto, obtendo o tamanho ideal para a sua necessidade.
@@ -31,13 +41,4 @@ Alt's são atributos das imagens em uma aplicação web responsiva que melhoram 
   - Quando uma imagem não pode ser carregada, o texto do atributo Alt aparece como alternativa para que o usuário saiba do que se trata a imagem que não pode ser carregada;
   - Ao se utilizar leitores de tela os Alt's são lidos para informar o usuário o conteúdo da imagem (implementação não utilizada na plataforma atual do Eduplay).
 
-## Aplicação de filtros Nativos para melhorar a visibilidade de portadores de daltonismo/color blind
-
-Implementação de três filtros para melhorar a visualização de portadores de daltonismo, que funciona alterando um pouco a cor original para a tornar mais diferenciável.
-
-### Navegação por Voz
-
-Implementação de navegação por voz que pode ser acionada clicando para iniciar e clicando novamente para parar a captura de voz ou simplesmente mantendo pressionado a tecla de espaço enquanto se fala o que se deseja buscar.
-
-Nesse caso o foco automático no carregamento da página se inicia no botão para falar, não necessitando de navegação por teclado para se chegar ao botão de captura de voz
 
